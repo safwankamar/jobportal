@@ -1,0 +1,15 @@
+{%extends 'base.html' %}
+{%block body_block%}
+<div class="container ">
+        <form action="" method="post" >
+          {%csrf_token%}
+            are you sure want to delete
+
+          <input type="submit" value="confirm">
+            <input type="submit" value="cancel">
+        </form>
+   </div>
+
+
+
+{%endblock%}
